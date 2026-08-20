@@ -1,5 +1,62 @@
-<h2>My Skills</h2>
-<ul>
-  <li>HTML & CSS</li>
-  <li>Git & GitHub</li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="styling.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h1>Welcome to My Portfolio</h1>
+  <div class="glow-bg"></div>
+
+  <main class="portfolio-card">
+    <header class="profile-header">
+      <div class="avatar">
+        <span>SP</span>
+      </div>
+      <div class="header-text">
+        <span class="badge">Available for Hire</span>
+        <h1>Alex Morgan</h1>
+        <p class="subtitle">Student Web Developer</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Featured Skills</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-card">
+          <div class="skill-info">
+            <span class="skill-name">HTML & CSS</span>
+            <span class="skill-level">Advanced</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span class="skill-name">Git & GitHub</span>
+            <span class="skill-level">Intermediate</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="card-footer">
+      <a href="#" class="btn primary-btn">View Projects</a>
+      <a href="#" class="btn secondary-btn">Contact Me</a>
+    </footer>
+  </main>
+</body>
+</html>
+
